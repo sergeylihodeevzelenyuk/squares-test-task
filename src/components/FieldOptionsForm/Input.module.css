@@ -1,0 +1,33 @@
+.control {
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8792a7;
+}
+
+.control:hover {
+  color: rgba(1, 143, 222, 1);
+}
+
+.control label {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.control svg {
+  position: absolute;
+  top: 8px;
+  right: 14px;
+  z-index: -1;
+}

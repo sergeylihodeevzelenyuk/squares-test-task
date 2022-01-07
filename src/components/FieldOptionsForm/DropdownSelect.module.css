@@ -1,0 +1,49 @@
+.select {
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+}
+
+.button {
+  padding: 7px 45px 7px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #8792a7;
+  background-color: transparent;
+  font: inherit;
+  color: #8792a7;
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: rgba(36, 117, 216, 255);
+  box-shadow: 0 4px 6px rgb(32 33 36 / 28%);
+}
+
+.button:hover svg path {
+  fill: rgba(36, 117, 216, 255);
+}
+
+.arrow {
+  position: absolute;
+  z-index: -1;
+  right: 21px;
+  top: 14px;
+}
+
+.arrow.active {
+  transform: rotate(180deg);
+}
+
+.options {
+  position: absolute;
+  border: none;
+  top: 31px;
+  left: -16px;
+  width: 120%;
+  padding: 10px 0;
+  background-color: #ffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgb(32 33 36 / 28%);
+  z-index: 1;
+}

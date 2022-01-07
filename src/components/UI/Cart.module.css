@@ -1,0 +1,8 @@
+.cart {
+  display: flex;
+  justify-content: center;
+}
+
+.cart p {
+  color: red;
+}

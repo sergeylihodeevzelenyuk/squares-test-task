@@ -1,0 +1,11 @@
+.cell {
+  width: var(--custom-width);
+  height: var(--custom-height);
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.cell.active {
+  background-color: rgba(54, 168, 244, 255);
+}

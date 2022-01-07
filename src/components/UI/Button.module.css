@@ -1,0 +1,20 @@
+.button {
+  padding: 7px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  background-color: rgba(36, 117, 216, 255);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  font: inherit;
+}
+
+.button:hover {
+  box-shadow: 0 4px 6px rgb(32 33 36 / 28%);
+}
+
+.button:active {
+  transform: scale(0.9);
+}

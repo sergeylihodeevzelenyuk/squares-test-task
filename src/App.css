@@ -1,0 +1,16 @@
+:root {
+  --custom-width: 60px;
+  --custom-height: 60px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  margin: 2rem auto;
+}
+
+.field-wrap {
+  width: 300px;
+}
